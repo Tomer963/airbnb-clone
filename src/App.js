@@ -9,7 +9,6 @@ import SearchPage from './SearchPage';
 
 const App = () => {
   return (
-    <div className='app'>
       <Router>
         <Header />
         <Switch>
@@ -22,7 +21,6 @@ const App = () => {
         </Switch>
         <Footer />
       </Router>
-    </div>
   );
 };
 
